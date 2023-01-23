@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Benchee Report</title>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/benchee.css">
+    <link rel="stylesheet" type="text/css" href="assets/fontello/css/fontello.css">
+  
+</head>
+
+  <body>
+
+    <div class="header">
+  <h1>benchee report</h1>
+  
+
+  <span class="version-note">
+  <a href="javascript:toggleSystemDataInfo();" title="Click to toggle system info">System info</a>
+</span>
+
+</div>
+
+
+    <article id="system-info" class="benchee-systeminfo" >
+  <h3>System info</h3>
+  <ul class="benchee-systeminfo-list">
+    <li>Elixir: 1.14.0</li>
+    <li>Erlang: 25.0.4</li>
+    <li>Operating system: macOS</li>
+    <li>Available memory: 32 GB</li>
+    <li>CPU Information: Apple M1 Pro</li>
+    <li>Number of Available Cores: 10</li>
+  </ul>
+</article>
+
+
+    
+      <article>
+        <h2>
+          Run Time Comparison
+          <a href="https://github.com/PragTob/benchee_html/wiki/Chart-Types#comparison">
+            <i
+            class="benchee-help-icon icon-question-circle-o"
+            title="Comparisons of the different benchmarking jobs. For Iterations per Second higher is better, the black whiskers denote standard deviation. otherwise it is runtime so lower is better. The Box Plot shows a distribution of run times with the median and outliers."
+            ></i>
+          </a>
+        </h2>
+        <section>
+          <table>
+  <thead>
+    <tr>
+      <th class="text-left">Name</th>
+      
+        <th>Iterations per Second</th>
+      
+      <th>Average</th>
+      <th>Deviation</th>
+      <th>Median</th>
+      <th>Mode</th>
+      <th>Minimum</th>
+      <th>Maximum</th>
+      <th>Sample size</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_components_viewwithstatelesswithidandupdate.html">Dynamic/Components/ViewWithStatelessWithIdAndUpdate</a></td>
+        
+        
+          <td>15.26</td>
+          <td>65.52 ms</td>
+          <td>±9.25%</td>
+          <td>63.73 ms</td>
+          <td>none</td>
+          <td>58.95 ms</td>
+          <td>92.98 ms</td>
+        
+        <td>77</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_components_viewwithstatelesswithidandupdate.html">Components/ViewWithStatelessWithIdAndUpdate</a></td>
+        
+        
+          <td>15.23</td>
+          <td>65.64 ms</td>
+          <td>±8.77%</td>
+          <td>63.27 ms</td>
+          <td>none</td>
+          <td>59.84 ms</td>
+          <td>83.77 ms</td>
+        
+        <td>77</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_livecomponents_viewwithphoenixlivecomponent.html">Dynamic/LiveComponents/ViewWithPhoenixLiveComponent</a></td>
+        
+        
+          <td>15.14</td>
+          <td>66.06 ms</td>
+          <td>±8.75%</td>
+          <td>64.00 ms</td>
+          <td>none</td>
+          <td>58.35 ms</td>
+          <td>83.29 ms</td>
+        
+        <td>76</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_components_viewwithslotarg.html">Dynamic/Components/ViewWithSlotArg</a></td>
+        
+        
+          <td>15.02</td>
+          <td>66.60 ms</td>
+          <td>±13.73%</td>
+          <td>63.61 ms</td>
+          <td>none</td>
+          <td>58.64 ms</td>
+          <td>106.82 ms</td>
+        
+        <td>76</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_components_viewwithnested.html">Components/ViewWithNested</a></td>
+        
+        
+          <td>14.99</td>
+          <td>66.73 ms</td>
+          <td>±9.16%</td>
+          <td>64.17 ms</td>
+          <td>none</td>
+          <td>53.52 ms</td>
+          <td>83.11 ms</td>
+        
+        <td>75</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_components_viewwithstatelesswithid.html">Components/ViewWithStatelessWithId</a></td>
+        
+        
+          <td>14.97</td>
+          <td>66.78 ms</td>
+          <td>±9.75%</td>
+          <td>64.60 ms</td>
+          <td>none</td>
+          <td>59.70 ms</td>
+          <td>90.21 ms</td>
+        
+        <td>75</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_components_viewwithphoenixfunctioncomponent.html">Dynamic/Components/ViewWithPhoenixFunctionComponent</a></td>
+        
+        
+          <td>14.96</td>
+          <td>66.84 ms</td>
+          <td>±11.09%</td>
+          <td>64.09 ms</td>
+          <td>none</td>
+          <td>59.84 ms</td>
+          <td>95.21 ms</td>
+        
+        <td>75</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_components_viewwithslotarg.html">Components/ViewWithSlotArg</a></td>
+        
+        
+          <td>14.92</td>
+          <td>67.03 ms</td>
+          <td>±9.09%</td>
+          <td>64.58 ms</td>
+          <td>none</td>
+          <td>59.46 ms</td>
+          <td>83.66 ms</td>
+        
+        <td>75</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_livecomponents_viewwithinnercontent.html">Dynamic/LiveComponents/ViewWithInnerContent</a></td>
+        
+        
+          <td>14.88</td>
+          <td>67.19 ms</td>
+          <td>±10.00%</td>
+          <td>64.99 ms</td>
+          <td>none</td>
+          <td>60.40 ms</td>
+          <td>98.83 ms</td>
+        
+        <td>75</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_components_viewwithstateless.html">Components/ViewWithStateless</a></td>
+        
+        
+          <td>14.71</td>
+          <td>67.98 ms</td>
+          <td>±11.03%</td>
+          <td>65.27 ms</td>
+          <td>none</td>
+          <td>59.27 ms</td>
+          <td>103.76 ms</td>
+        
+        <td>74</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_livecomponents_view.html">Dynamic/LiveComponents/View</a></td>
+        
+        
+          <td>14.63</td>
+          <td>68.36 ms</td>
+          <td>±11.02%</td>
+          <td>65.17 ms</td>
+          <td>none</td>
+          <td>58.98 ms</td>
+          <td>89.79 ms</td>
+        
+        <td>74</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_liveview_componentinlive_root.html">LiveView/ComponentInLive/Root</a></td>
+        
+        
+          <td>14.30</td>
+          <td>69.92 ms</td>
+          <td>±12.19%</td>
+          <td>67.36 ms</td>
+          <td>none</td>
+          <td>57.36 ms</td>
+          <td>99.70 ms</td>
+        
+        <td>72</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_livecomponents_view.html">LiveComponents/View</a></td>
+        
+        
+          <td>13.92</td>
+          <td>71.85 ms</td>
+          <td>±17.38%</td>
+          <td>66.88 ms</td>
+          <td>none</td>
+          <td>59.91 ms</td>
+          <td>126.22 ms</td>
+        
+        <td>70</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_liveview_functioncomponent_withcomponentlive.html">LiveView/FunctionComponent/WithComponentLive</a></td>
+        
+        
+          <td>13.85</td>
+          <td>72.18 ms</td>
+          <td>±24.62%</td>
+          <td>65.91 ms</td>
+          <td>none</td>
+          <td>55.67 ms</td>
+          <td>174.68 ms</td>
+        
+        <td>70</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_components_viewwithnested.html">Dynamic/Components/ViewWithNested</a></td>
+        
+        
+          <td>13.79</td>
+          <td>72.54 ms</td>
+          <td>±23.43%</td>
+          <td>65.19 ms</td>
+          <td>none</td>
+          <td>60.52 ms</td>
+          <td>149.21 ms</td>
+        
+        <td>69</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_liveview_componentinlive_live.html">LiveView/ComponentInLive/Live</a></td>
+        
+        
+          <td>13.77</td>
+          <td>72.62 ms</td>
+          <td>±15.31%</td>
+          <td>69.42 ms</td>
+          <td>none</td>
+          <td>61.06 ms</td>
+          <td>112.48 ms</td>
+        
+        <td>69</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_components_viewwithstateless.html">Dynamic/Components/ViewWithStateless</a></td>
+        
+        
+          <td>13.70</td>
+          <td>73.00 ms</td>
+          <td>±36.12%</td>
+          <td>64.54 ms</td>
+          <td>none</td>
+          <td>59.96 ms</td>
+          <td>262.87 ms</td>
+        
+        <td>69</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_liveview_functioncomponent_withmultipletargets.html">LiveView/FunctionComponent/WithMultipleTargets</a></td>
+        
+        
+          <td>13.26</td>
+          <td>75.42 ms</td>
+          <td>±17.07%</td>
+          <td>72.22 ms</td>
+          <td>none</td>
+          <td>60.67 ms</td>
+          <td>137.97 ms</td>
+        
+        <td>67</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_liveview_componentandnestedinlive.html">LiveView/ComponentAndNestedInLive</a></td>
+        
+        
+          <td>12.36</td>
+          <td>80.88 ms</td>
+          <td>±62.37%</td>
+          <td>68.87 ms</td>
+          <td>none</td>
+          <td>58.57 ms</td>
+          <td>445.01 ms</td>
+        
+        <td>62</td>
+      </tr>
+    
+  </tbody>
+</table>
+
+        </section>
+
+        <section class="benchee-plot-container">
+          <div id="ips-comparison" class=" plot"></div>
+        </section>
+
+        <section class="benchee-plot-container">
+          <div id="run-time-box-plot" class=" plot"></div>
+        </section>
+      </article>
+    
+
+    
+      <article>
+        <h2>
+          Memory Usage Comparison
+          <a href="https://github.com/PragTob/benchee_html/wiki/Chart-Types#comparison">
+            <i
+            class="benchee-help-icon icon-question-circle-o"
+            title="This is a memory usage comparison"
+            ></i>
+          </a>
+        </h2>
+        <section>
+          <table>
+  <thead>
+    <tr>
+      <th class="text-left">Name</th>
+      
+      <th>Average</th>
+      <th>Deviation</th>
+      <th>Median</th>
+      <th>Mode</th>
+      <th>Minimum</th>
+      <th>Maximum</th>
+      <th>Sample size</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_components_viewwithstatelesswithidandupdate.html">Dynamic/Components/ViewWithStatelessWithIdAndUpdate</a></td>
+        
+        
+          <td>71.09 KB</td>
+          <td>±0.00%</td>
+          <td>71.09 KB</td>
+          <td>71.09 KB</td>
+          <td>71.09 KB</td>
+          <td>71.09 KB</td>
+        
+        <td>31</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_components_viewwithstatelesswithidandupdate.html">Components/ViewWithStatelessWithIdAndUpdate</a></td>
+        
+        
+          <td>69.71 KB</td>
+          <td>±0.00%</td>
+          <td>69.71 KB</td>
+          <td>69.71 KB</td>
+          <td>69.71 KB</td>
+          <td>69.71 KB</td>
+        
+        <td>31</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_livecomponents_viewwithphoenixlivecomponent.html">Dynamic/LiveComponents/ViewWithPhoenixLiveComponent</a></td>
+        
+        
+          <td>77.04 KB</td>
+          <td>±0.00%</td>
+          <td>77.04 KB</td>
+          <td>77.04 KB</td>
+          <td>77.04 KB</td>
+          <td>77.04 KB</td>
+        
+        <td>30</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_components_viewwithslotarg.html">Dynamic/Components/ViewWithSlotArg</a></td>
+        
+        
+          <td>68.69 KB</td>
+          <td>±0.00%</td>
+          <td>68.69 KB</td>
+          <td>68.69 KB</td>
+          <td>68.69 KB</td>
+          <td>68.69 KB</td>
+        
+        <td>30</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_components_viewwithnested.html">Components/ViewWithNested</a></td>
+        
+        
+          <td>68.27 KB</td>
+          <td>±0.00%</td>
+          <td>68.27 KB</td>
+          <td>68.27 KB</td>
+          <td>68.27 KB</td>
+          <td>68.27 KB</td>
+        
+        <td>31</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_components_viewwithstatelesswithid.html">Components/ViewWithStatelessWithId</a></td>
+        
+        
+          <td>68.85 KB</td>
+          <td>±0.00%</td>
+          <td>68.85 KB</td>
+          <td>68.85 KB</td>
+          <td>68.85 KB</td>
+          <td>68.85 KB</td>
+        
+        <td>31</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_components_viewwithphoenixfunctioncomponent.html">Dynamic/Components/ViewWithPhoenixFunctionComponent</a></td>
+        
+        
+          <td>75.35 KB</td>
+          <td>±0.00%</td>
+          <td>75.35 KB</td>
+          <td>75.35 KB</td>
+          <td>75.35 KB</td>
+          <td>75.35 KB</td>
+        
+        <td>29</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_components_viewwithslotarg.html">Components/ViewWithSlotArg</a></td>
+        
+        
+          <td>67.63 KB</td>
+          <td>±0.00%</td>
+          <td>67.63 KB</td>
+          <td>67.63 KB</td>
+          <td>67.63 KB</td>
+          <td>67.63 KB</td>
+        
+        <td>31</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_livecomponents_viewwithinnercontent.html">Dynamic/LiveComponents/ViewWithInnerContent</a></td>
+        
+        
+          <td>80.63 KB</td>
+          <td>±0.00%</td>
+          <td>80.63 KB</td>
+          <td>80.63 KB</td>
+          <td>80.63 KB</td>
+          <td>80.63 KB</td>
+        
+        <td>30</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_components_viewwithstateless.html">Components/ViewWithStateless</a></td>
+        
+        
+          <td>68.23 KB</td>
+          <td>±0.00%</td>
+          <td>68.23 KB</td>
+          <td>68.23 KB</td>
+          <td>68.23 KB</td>
+          <td>68.23 KB</td>
+        
+        <td>31</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_livecomponents_view.html">Dynamic/LiveComponents/View</a></td>
+        
+        
+          <td>75.35 KB</td>
+          <td>±0.00%</td>
+          <td>75.35 KB</td>
+          <td>75.35 KB</td>
+          <td>75.35 KB</td>
+          <td>75.35 KB</td>
+        
+        <td>30</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_liveview_componentinlive_root.html">LiveView/ComponentInLive/Root</a></td>
+        
+        
+          <td>76.05 KB</td>
+          <td>±0.00%</td>
+          <td>76.05 KB</td>
+          <td>76.05 KB</td>
+          <td>76.05 KB</td>
+          <td>76.05 KB</td>
+        
+        <td>29</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_livecomponents_view.html">LiveComponents/View</a></td>
+        
+        
+          <td>79.23 KB</td>
+          <td>±0.00%</td>
+          <td>79.23 KB</td>
+          <td>79.23 KB</td>
+          <td>79.23 KB</td>
+          <td>79.23 KB</td>
+        
+        <td>29</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_liveview_functioncomponent_withcomponentlive.html">LiveView/FunctionComponent/WithComponentLive</a></td>
+        
+        
+          <td>88.90 KB</td>
+          <td>±0.00%</td>
+          <td>88.90 KB</td>
+          <td>88.90 KB</td>
+          <td>88.90 KB</td>
+          <td>88.90 KB</td>
+        
+        <td>28</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_components_viewwithnested.html">Dynamic/Components/ViewWithNested</a></td>
+        
+        
+          <td>70.16 KB</td>
+          <td>±0.00%</td>
+          <td>70.16 KB</td>
+          <td>70.16 KB</td>
+          <td>70.16 KB</td>
+          <td>70.16 KB</td>
+        
+        <td>30</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_liveview_componentinlive_live.html">LiveView/ComponentInLive/Live</a></td>
+        
+        
+          <td>69.43 KB</td>
+          <td>±0.00%</td>
+          <td>69.43 KB</td>
+          <td>69.43 KB</td>
+          <td>69.43 KB</td>
+          <td>69.43 KB</td>
+        
+        <td>28</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_dynamic_components_viewwithstateless.html">Dynamic/Components/ViewWithStateless</a></td>
+        
+        
+          <td>74.07 KB</td>
+          <td>±0.00%</td>
+          <td>74.07 KB</td>
+          <td>74.07 KB</td>
+          <td>74.07 KB</td>
+          <td>74.07 KB</td>
+        
+        <td>31</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_liveview_functioncomponent_withmultipletargets.html">LiveView/FunctionComponent/WithMultipleTargets</a></td>
+        
+        
+          <td>86.94 KB</td>
+          <td>±0.00%</td>
+          <td>86.94 KB</td>
+          <td>86.94 KB</td>
+          <td>86.94 KB</td>
+          <td>86.94 KB</td>
+        
+        <td>25</td>
+      </tr>
+    
+      
+      <tr>
+        
+          <td class="text-left"><a href="components_liveview_componentandnestedinlive.html">LiveView/ComponentAndNestedInLive</a></td>
+        
+        
+          <td>65.49 KB</td>
+          <td>±0.00%</td>
+          <td>65.49 KB</td>
+          <td>65.49 KB</td>
+          <td>65.49 KB</td>
+          <td>65.49 KB</td>
+        
+        <td>27</td>
+      </tr>
+    
+  </tbody>
+</table>
+
+        </section>
+
+        <section class="benchee-plot-container">
+          <div id="memory-comparison" class=" plot"></div>
+        </section>
+
+        <section class="benchee-plot-container">
+          <div id="memory-box-plot" class=" plot"></div>
+        </section>
+      </article>
+    
+
+    <footer>
+      <a href="https://github.com/PragTob/benchee" target="blank">benchee version: 1.1.0 </a>
+<br/>
+<a href="https://github.com/PragTob/benchee_html" target="blank">benchee_html version: 1.0.0</a>
+
+
+    </footer>
+
+    
+  <script src="assets/javascripts/plotly-1.30.1.min.js"></script>
+  <script src="assets/javascripts/benchee.js"></script>
+
+
+
+    <script>
+      var scenarios     = [{"name":"Dynamic/Components/ViewWithStatelessWithIdAndUpdate","job_name":"Dynamic/Components/ViewWithStatelessWithIdAndUpdate","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":null,"average":65517639.48051948,"ips":15.263065152054699,"maximum":92976597,"median":63728537.0,"minimum":58950666,"mode":null,"percentiles":{"50":63728537.0,"99":92976597.0},"relative_less":null,"relative_more":null,"sample_size":77,"std_dev":6063454.156040456,"std_dev_ips":1.4125493006758816,"std_dev_ratio":0.09254689583014232},"samples":[63715536,64942660,64276911,67291867,60878497,61807497,60752414,59303248,62513496,80300566,67100908,63156412,62260745,63688411,61924579,61541497,73762695,64587910,62161580,65539660,68009992,67577908,68722199,60079123,62676871,92976597,60712080,62421912,60079290,64331535,62546454,65007077,64391161,61847287,61496955,62566954,64918910,63068994,58950666,62973703,79334025,64721202,62031663,64148745,60729997,61937787,60596539,65861243,63203328,65047118,63143538,63404619,72462321,79363401,77669859,83223231,67081075,63728537,60446915,63070662,68900949,67532618,63963119,66244702,65672785,63942953,60759455,64174078,62325787,65450993,79665692,68179491,66569701,60257623,61118205,62935578,69095949]},"memory_usage_data":{"statistics":{"absolute_difference":null,"average":7.28e4,"ips":null,"maximum":72800,"median":7.28e4,"minimum":72800,"mode":72800,"percentiles":{"50":7.28e4,"99":7.28e4},"relative_less":null,"relative_more":null,"sample_size":31,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800,72800]},"tag":null},{"name":"Components/ViewWithStatelessWithIdAndUpdate","job_name":"Components/ViewWithStatelessWithIdAndUpdate","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":125717.6233766228,"average":65643357.103896104,"ips":15.23383391890308,"maximum":83770542,"median":63266708.0,"minimum":59836417,"mode":null,"percentiles":{"50":63266708.0,"99":83770542.0},"relative_less":0.9980848386048013,"relative_more":1.001918836276359,"sample_size":77,"std_dev":5753790.058073483,"std_dev_ips":1.3352803088695895,"std_dev_ratio":0.08765228214892716},"samples":[63953292,59836417,62295125,62115750,66857750,69240916,81746292,71035500,64417416,63129708,65872791,62638875,62255625,62273000,60093375,65346750,63266708,62982333,66209459,61727250,66318541,75947583,62397792,62764416,60483083,61129667,62982250,65240458,60460167,60355000,77495417,60701791,65272834,62443042,63603042,71436375,62909666,79988125,61744375,63630500,65500125,62202875,63142958,65066583,60607333,74538792,60498375,62436625,64442792,60926125,64674000,69578167,77561166,63392583,69075416,71119292,80166292,66481375,63513333,62163250,61813375,83770542,63593000,62017500,62332208,76288125,71390250,73199875,60163416,61920000,60048959,67181959,60843167,62129250,62171208,61828125,72161625]},"memory_usage_data":{"statistics":{"absolute_difference":-1416.0,"average":71384.0,"ips":null,"maximum":71384,"median":71384.0,"minimum":71384,"mode":71384,"percentiles":{"50":71384.0,"99":71384.0},"relative_less":1.0198363778998094,"relative_more":0.9805494505494505,"sample_size":31,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384,71384]},"tag":null},{"name":"Dynamic/LiveComponents/ViewWithPhoenixLiveComponent","job_name":"Dynamic/LiveComponents/ViewWithPhoenixLiveComponent","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":546128.703691043,"average":66063768.184210524,"ips":15.136890121248088,"maximum":83287939,"median":63999369.5,"minimum":58354249,"mode":null,"percentiles":{"50":63999369.5,"99":83287939.0},"relative_less":0.991733309820169,"relative_more":1.0083355979858435,"sample_size":76,"std_dev":5778520.508895312,"std_dev_ips":1.3240060688429258,"std_dev_ratio":0.08746883000652693},"samples":[61148705,75078653,81040648,67143160,74899444,59729290,64310078,65191577,62235996,65895284,69597116,60923330,67326408,74187987,58354249,63015663,61976496,80317732,64486786,75180862,59961289,60624122,64270619,62670370,61897038,63820286,77129693,63285829,62026829,62065579,61496288,67075241,76625778,60693580,68560449,67876741,68860449,62854787,63428787,62079621,68136825,70444364,66027826,67289660,65290909,61485163,63014537,79660192,61885246,66210951,64195787,62294329,61940162,62606120,64522243,59531706,76609778,61205997,61593120,62765663,63221870,64134120,63235411,77486777,63295119,72634613,63864619,66569826,66100202,64942244,62362454,66750450,83287939,62095996,62888329,61922996]},"memory_usage_data":{"statistics":{"absolute_difference":6088.0,"average":78888.0,"ips":null,"maximum":78888,"median":78888.0,"minimum":78888,"mode":78888,"percentiles":{"50":78888.0,"99":78888.0},"relative_less":0.9228272994625292,"relative_more":1.0836263736263736,"sample_size":30,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888,78888]},"tag":null},{"name":"Dynamic/Components/ViewWithSlotArg","job_name":"Dynamic/Components/ViewWithSlotArg","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":1078233.4405331537,"average":66595872.921052635,"ips":15.015945525415207,"maximum":106821542,"median":63608458.5,"minimum":58643125,"mode":null,"percentiles":{"50":63608458.5,"99":106821542.0},"relative_less":0.9838093053932732,"relative_more":1.0164571472519817,"sample_size":76,"std_dev":9146000.891654283,"std_dev_ips":2.0622276597723563,"std_dev_ratio":0.1373358511644796},"samples":[63315583,63640209,61190167,64323083,62702750,66879584,66724834,63278750,63404334,68353500,61961917,62684250,62866333,64362042,106821542,63422625,70101459,61777292,75996167,66151958,61741750,62740084,72516250,65885542,70025667,62975708,63576708,61304708,65629375,81836334,61080125,62065917,63838250,62084792,59229667,64397792,62763875,64163292,82603334,72035083,64256334,61262750,64541958,61593916,99179666,66542584,63336167,63790792,70112792,73646292,59288500,62501375,62988459,61531167,61466708,58643125,66645084,63001750,63350000,85858292,62330750,59699583,61929000,66987625,64732125,63573292,59743708,61564959,64025375,63640500,66150583,59992708,65822791,68517958,105365750,71219292]},"memory_usage_data":{"statistics":{"absolute_difference":-2464.0,"average":70336.0,"ips":null,"maximum":70336,"median":70336.0,"minimum":70336,"mode":70336,"percentiles":{"50":70336.0,"99":70336.0},"relative_less":1.035031847133758,"relative_more":0.9661538461538461,"sample_size":30,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336,70336]},"tag":null},{"name":"Components/ViewWithNested","job_name":"Components/ViewWithNested","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":1214449.3994805217,"average":66732088.88,"ips":14.985294433061062,"maximum":83107167,"median":64165959.0,"minimum":53516917,"mode":null,"percentiles":{"50":64165959.0,"99":83107167.0},"relative_less":0.9818011181747301,"relative_more":1.018536220308145,"sample_size":75,"std_dev":6113979.871313748,"std_dev_ips":1.3729495070085282,"std_dev_ratio":0.09161978852944529},"samples":[75872292,67822625,65912625,63037584,61296583,63174542,65253000,62180500,62284041,60697375,75150042,61860792,63588167,62135583,78112916,64905000,75764750,53516917,60589417,63344583,63887000,74265083,61869709,74229584,63386583,74980083,65508416,59676541,63144750,83107167,64263208,68099500,74024042,62940250,71643084,60632625,63604667,64165959,67132333,64007708,80167500,62722167,64705958,67718209,74900250,62597417,81904292,64207708,63878208,64091291,63559000,62622375,59323584,82192209,63656375,72452750,63670250,62835458,61275916,72031625,69419875,65113250,63282708,70579583,68568416,67102541,62175125,62516292,67612833,64986000,71782417,62758083,64819125,63785542,78824708]},"memory_usage_data":{"statistics":{"absolute_difference":-2888.0,"average":69912.0,"ips":null,"maximum":69912,"median":69912.0,"minimum":69912,"mode":69912,"percentiles":{"50":69912.0,"99":69912.0},"relative_less":1.04130907426479,"relative_more":0.9603296703296703,"sample_size":31,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912,69912]},"tag":null},{"name":"Components/ViewWithStatelessWithId","job_name":"Components/ViewWithStatelessWithId","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":1262775.5461471826,"average":66780415.02666666,"ips":14.974450212696063,"maximum":90212167,"median":64595875.0,"minimum":59703167,"mode":null,"percentiles":{"50":64595875.0,"99":90212167.0},"relative_less":0.9810906304544089,"relative_more":1.0192738254332658,"sample_size":75,"std_dev":6508613.086480895,"std_dev_ips":1.4594533828262592,"std_dev_ratio":0.09746290261721022},"samples":[59703167,61252167,64673500,63550792,62617000,61916708,75371333,62036042,75639084,65365042,64131000,61837958,63056375,76718791,61720417,64138708,64635833,64595875,62078542,61520000,63780292,66388667,68068625,62489500,78662416,72815250,59718250,65476500,66946500,62916458,61170042,64896875,65734959,66027917,66296334,61477209,61381375,68517916,61969542,79935125,63833125,64969750,64017667,62370459,74499666,64996125,67982958,66400958,64084708,63318250,61831459,61306000,75797208,62095125,84952000,64164083,62615875,64113583,62142375,59898209,79754541,69354333,78180542,62484125,65476125,67962458,75561209,69538875,60303375,90212167,80634500,64240833,65898500,65302917,77008958]},"memory_usage_data":{"statistics":{"absolute_difference":-2296.0,"average":70504.0,"ips":null,"maximum":70504,"median":70504.0,"minimum":70504,"mode":70504,"percentiles":{"50":70504.0,"99":70504.0},"relative_less":1.0325655281969817,"relative_more":0.9684615384615385,"sample_size":31,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504,70504]},"tag":null},{"name":"Dynamic/Components/ViewWithPhoenixFunctionComponent","job_name":"Dynamic/Components/ViewWithPhoenixFunctionComponent","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":1321229.9461471885,"average":66838869.42666667,"ips":14.961354202694375,"maximum":95208584,"median":64089291.0,"minimum":59840709,"mode":null,"percentiles":{"50":64089291.0,"99":95208584.0},"relative_less":0.9802326107924851,"relative_more":1.0201660187488903,"sample_size":75,"std_dev":7413977.6172866225,"std_dev_ips":1.659560464360851,"std_dev_ratio":0.11092314518307324},"samples":[75100833,88101709,62438208,62419250,63402375,63808500,68821750,60190959,63653833,71460709,76112208,66089333,66573750,62170500,65123792,83720750,69321042,62362250,63387209,63127292,64089291,62747417,63297667,65043834,75674750,65522791,63110917,61390458,61295584,65646334,73782292,72546500,79341583,59840709,62034209,64081542,63364459,62401833,62518125,63572093,77689130,83423185,75153750,60772458,65658708,91842000,65716416,64499791,64724541,65510500,64263917,59919000,65088667,65387500,61446292,61651667,61924250,62297667,62860333,63718500,95208584,61947417,77300125,62324584,63576500,64864709,62492125,63903500,64196750,63276042,64256250,65227542,65686750,64701709,61715708]},"memory_usage_data":{"statistics":{"absolute_difference":4360.0,"average":77160.0,"ips":null,"maximum":77160,"median":77160.0,"minimum":77160,"mode":77160,"percentiles":{"50":77160.0,"99":77160.0},"relative_less":0.9434940383618455,"relative_more":1.05989010989011,"sample_size":29,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160]},"tag":null},{"name":"Components/ViewWithSlotArg","job_name":"Components/ViewWithSlotArg","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":1508015.5994805172,"average":67025655.08,"ips":14.919660222737505,"maximum":83658541,"median":64575750.0,"minimum":59457209,"mode":null,"percentiles":{"50":64575750.0,"99":83658541.0},"relative_less":0.9775009196451628,"relative_more":1.0230169403451859,"sample_size":75,"std_dev":6090588.091724083,"std_dev_ips":1.35574213749519,"std_dev_ratio":0.09086950488517453},"samples":[67731042,66847875,66489875,71168792,63745917,64931125,70615209,62954583,63520125,80794208,71706208,65494167,78714334,60452334,60795709,64814375,64002209,61826792,60563458,61256917,66826209,62261209,62052000,63345583,69207167,67158750,61724042,62696542,77352500,67547000,64425000,71597292,60454625,64575750,63986958,61488375,73386875,61990125,63486875,63748042,67383042,72219959,79070625,79523958,66082750,63505625,64215625,76214583,61844625,65997542,64491041,66314416,70779959,63769542,79768208,68500000,59457209,78100417,65180083,64138166,60119583,64009000,63674708,62418416,60613167,62406625,61837083,74895125,83658541,74981667,65457334,76050250,78499042,61987833,62022209]},"memory_usage_data":{"statistics":{"absolute_difference":-3544.0,"average":69256.0,"ips":null,"maximum":69256,"median":69256.0,"minimum":69256,"mode":69256,"percentiles":{"50":69256.0,"99":69256.0},"relative_less":1.0511724615917755,"relative_more":0.9513186813186814,"sample_size":31,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256,69256]},"tag":null},{"name":"Dynamic/LiveComponents/ViewWithInnerContent","job_name":"Dynamic/LiveComponents/ViewWithInnerContent","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":1673807.5594805256,"average":67191447.04,"ips":14.88284661297272,"maximum":98825594,"median":64985452.0,"minimum":60401413,"mode":null,"percentiles":{"50":64985452.0,"99":98825594.0},"relative_less":0.9750889788326171,"relative_more":1.025547433832353,"sample_size":75,"std_dev":6720075.429765791,"std_dev_ips":1.4884908162384323,"std_dev_ratio":0.100013851848811},"samples":[64398368,60401413,60478164,63289661,78372692,73063946,65953494,62427038,62256871,62753328,62798454,66585326,65158244,64500036,65171744,63225286,61920913,64240452,67847825,79032734,98825594,70185031,65045577,78733317,63450161,64910910,69805907,61794412,65456160,67131241,65005577,61881830,62073704,64913036,75008195,85682978,67407451,66220867,66808700,64805661,64989577,64985452,63493537,66315326,64299119,63267329,60648121,64685869,64339870,79537733,70688865,71218322,60724747,72547821,69013115,62204121,76976485,62282288,71897947,62213913,61338580,61041996,63212953,67071284,80796398,78219318,66377492,61140704,63136579,63482120,65404827,73069613,71680863,63642494,64391452]},"memory_usage_data":{"statistics":{"absolute_difference":9768.0,"average":82568.0,"ips":null,"maximum":82568,"median":82568.0,"minimum":82568,"mode":82568,"percentiles":{"50":82568.0,"99":82568.0},"relative_less":0.8816975099312082,"relative_more":1.1341758241758242,"sample_size":30,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568,82568]},"tag":null},{"name":"Components/ViewWithStateless","job_name":"Components/ViewWithStateless","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":2466312.6005615965,"average":67983952.08108108,"ips":14.709353742885524,"maximum":103763000,"median":65272937.5,"minimum":59267917,"mode":null,"percentiles":{"50":65272937.5,"99":1.03763e8},"relative_less":0.9637221355178035,"relative_more":1.0376434899077052,"sample_size":74,"std_dev":7498560.061625021,"std_dev_ips":1.6224266041075077,"std_dev_ratio":0.1102989725087159},"samples":[64578708,68464750,64097833,61649583,64330917,63689625,70334917,67478958,72015166,62961083,61989083,82551875,68293083,66379792,63642417,83018208,63296125,65115209,61386625,63627750,65021792,71231208,65655458,67358000,63976417,77622334,79981291,70793292,65583000,84108459,61980500,66554375,63736583,63981250,65824625,64693583,62415000,81735875,70265916,62353292,79172916,68121375,65422083,64643083,69536208,64209292,79151875,71643708,62692166,62500958,65086458,67322708,69024875,65123792,62259792,77108458,66507834,70878042,61790250,64034750,62470000,63174625,61997333,63638125,103763000,61657250,72621125,69443000,59267917,84518208,59444459,68072041,61409000,69331791]},"memory_usage_data":{"statistics":{"absolute_difference":-2936.0,"average":69864.0,"ips":null,"maximum":69864,"median":69864.0,"minimum":69864,"mode":69864,"percentiles":{"50":69864.0,"99":69864.0},"relative_less":1.0420245047520897,"relative_more":0.9596703296703297,"sample_size":31,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864,69864]},"tag":null},{"name":"Dynamic/LiveComponents/View","job_name":"Dynamic/LiveComponents/View","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":2839244.1275886223,"average":68356883.6081081,"ips":14.62910459366503,"maximum":89785933,"median":65174222.5,"minimum":58976790,"mode":null,"percentiles":{"50":65174222.5,"99":89785933.0},"relative_less":0.9584644006905568,"relative_more":1.0433355681019738,"sample_size":74,"std_dev":7534521.950154025,"std_dev_ips":1.6124683258526167,"std_dev_ratio":0.11022330967206824},"samples":[72174279,63385746,63297828,73713779,64125536,62953287,82743814,76940693,64347744,66584743,65255493,63035246,64443285,63300328,65321119,64897160,78447608,82457606,73416571,70743198,73789488,89224476,67304908,62446037,68469240,62693996,67267493,63599287,63441911,58976790,66669743,62858662,62749161,69960574,59939497,74495820,80148441,67114076,62433079,63404536,64081120,63909494,62849704,61585663,64215661,68969699,60988955,64567786,75239319,64647285,65092952,82174106,84019896,62477870,61726287,69511157,65813409,64065161,66934617,63391619,62491162,63044078,73690071,70775197,89382559,85081063,89785933,61397622,67642575,70806698,66070576,64599953,65712409,63095453]},"memory_usage_data":{"statistics":{"absolute_difference":4360.0,"average":77160.0,"ips":null,"maximum":77160,"median":77160.0,"minimum":77160,"mode":77160,"percentiles":{"50":77160.0,"99":77160.0},"relative_less":0.9434940383618455,"relative_more":1.05989010989011,"sample_size":30,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160,77160]},"tag":null},{"name":"LiveView/ComponentInLive/Root","job_name":"LiveView/ComponentInLive/Root","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":4402540.922258295,"average":69920180.40277778,"ips":14.302022595471911,"maximum":99698927,"median":67357095.5,"minimum":57355458,"mode":null,"percentiles":{"50":67357095.5,"99":99698927.0},"relative_less":0.9370347602523721,"relative_more":1.0671962689310153,"sample_size":72,"std_dev":8520066.469746027,"std_dev_ips":1.7427612809818962,"std_dev_ratio":0.12185418316523026},"samples":[69135656,68399784,72535571,73462071,62267454,66865909,64893618,65916034,62848746,63989203,82553897,64666785,61096955,64906452,71121573,63635703,62270412,72074072,71048572,67744408,64565536,62275747,62703745,65215743,99698927,75677902,64238535,69126741,78347901,62039663,63591536,65971618,71130865,62460662,65220035,74059737,72919655,62983953,62155912,80942149,64636661,62505204,62537579,90115433,70508698,68273909,65087993,75676235,62798787,66969783,82976272,57355458,75166236,97665178,74820320,75299735,74691112,72382780,63106161,77289193,70986073,68518032,68159575,66657368,96096929,65157952,79375649,73214988,64395452,65771035,64470952,74826820]},"memory_usage_data":{"statistics":{"absolute_difference":5080.0,"average":77880.0,"ips":null,"maximum":77880,"median":77880.0,"minimum":77880,"mode":77880,"percentiles":{"50":77880.0,"99":77880.0},"relative_less":0.9347714432460195,"relative_more":1.0697802197802198,"sample_size":29,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880,77880]},"tag":null},{"name":"LiveComponents/View","job_name":"LiveComponents/View","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":6329603.933766238,"average":71847243.41428572,"ips":13.91841847339637,"maximum":126216991,"median":66884263.0,"minimum":59914122,"mode":null,"percentiles":{"50":66884263.0,"99":126216991.0},"relative_less":0.9119019236789857,"relative_more":1.0966091572277759,"sample_size":70,"std_dev":12485224.888333648,"std_dev_ips":2.4186673903168674,"std_dev_ratio":0.17377458473029117},"samples":[78022401,79454566,87395560,71185281,67162700,84045063,66304492,69391866,62350204,63518495,65073744,66771451,69487532,64541369,76125402,63551869,89592351,68000200,73330321,66116659,77408360,65397659,70082574,64848494,66423409,93805265,63773285,68705075,126216991,70965738,61028955,71261490,94253138,64503952,99881761,77308235,109631711,76113653,59914122,64567870,82760564,66997075,87195311,81120648,64710577,66435910,65753869,70837072,66423034,62151121,64705786,61229039,69911490,63007036,63493787,72087863,67196368,102379341,63646828,64295119,61895787,63572828,67539283,63925869,63029538,63972535,64635494,65311827,63205162,68367615]},"memory_usage_data":{"statistics":{"absolute_difference":8328.0,"average":81128.0,"ips":null,"maximum":81128,"median":81128.0,"minimum":81128,"mode":81128,"percentiles":{"50":81128.0,"99":81128.0},"relative_less":0.8973474016369194,"relative_more":1.1143956043956045,"sample_size":29,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128,81128]},"tag":null},{"name":"LiveView/FunctionComponent/WithComponentLive","job_name":"LiveView/FunctionComponent/WithComponentLive","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":6663832.219480522,"average":72181471.7,"ips":13.85397078292046,"maximum":174681497,"median":65906347.0,"minimum":55674709,"mode":null,"percentiles":{"50":65906347.0,"99":174681497.0},"relative_less":0.9076794631290328,"relative_more":1.1017105053282925,"sample_size":70,"std_dev":17771672.69517399,"std_dev_ips":3.4109616842651014,"std_dev_ratio":0.24620823428256575},"samples":[82230814,174681497,151649555,67324158,90474724,69758366,63160787,64841160,70427948,67364367,66447035,80768315,80119774,64012870,65917201,64317077,63057413,61511996,75696861,64259160,84660604,81778897,78101026,78961482,62362371,63229496,66227617,64821286,67290409,66920409,81314190,65170160,74427278,80648648,70785615,76431402,84055105,65895493,64129995,64238285,64293120,65286660,64772869,65864076,64995327,64923243,66240994,96665137,64196078,64858285,64655202,75766819,67279367,55674709,65454659,64260828,63938412,70815530,62446370,69370824,75085570,64660119,85408853,62163746,63133453,62076955,79996441,62070079,64536494,62341954]},"memory_usage_data":{"statistics":{"absolute_difference":18232.0,"average":91032.0,"ips":null,"maximum":91032,"median":91032.0,"minimum":91032,"mode":91032,"percentiles":{"50":91032.0,"99":91032.0},"relative_less":0.7997187802091572,"relative_more":1.2504395604395604,"sample_size":28,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032,91032]},"tag":null},{"name":"Dynamic/Components/ViewWithNested","job_name":"Dynamic/Components/ViewWithNested","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":7023370.852813847,"average":72541010.33333333,"ips":13.785305655447837,"maximum":149214542,"median":65185333.0,"minimum":60520000,"mode":null,"percentiles":{"50":65185333.0,"99":149214542.0},"relative_less":0.9031806860623978,"relative_more":1.1071981669135398,"sample_size":69,"std_dev":16997079.609899484,"std_dev_ips":3.2300341089235793,"std_dev_ratio":0.23430993767244448},"samples":[149214542,118671375,92957000,91695625,70752292,66307792,73143250,87313125,82244167,66069083,86603000,126454833,95924250,75277792,61006292,62592625,62879458,62317208,62922125,64394416,64217500,77908000,60520000,64167167,63768375,65193625,65185333,79437917,81622042,64565750,63731292,63464834,65030333,62902292,65254208,72386333,62984250,63892417,65068333,62642458,66669292,70134792,70186833,84499750,65964667,65330167,62061875,63535417,62605917,66534583,63566250,68050625,77538625,62082792,65153542,64139041,63341417,69275292,107590334,62163709,61593584,76481875,114595791,61085958,61377459,63622042,64335792,63728833,65400750]},"memory_usage_data":{"statistics":{"absolute_difference":-952.0,"average":71848.0,"ips":null,"maximum":71848,"median":71848.0,"minimum":71848,"mode":71848,"percentiles":{"50":71848.0,"99":71848.0},"relative_less":1.0132501948558068,"relative_more":0.9869230769230769,"sample_size":30,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848,71848]},"tag":null},{"name":"LiveView/ComponentInLive/Live","job_name":"LiveView/ComponentInLive/Live","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":7100833.403538488,"average":72618472.88405797,"ips":13.770600789093864,"maximum":112479417,"median":69416449.0,"minimum":61064163,"mode":null,"percentiles":{"50":69416449.0,"99":112479417.0},"relative_less":0.9022172579300088,"relative_more":1.1083804828720942,"sample_size":69,"std_dev":11121364.819372134,"std_dev_ips":2.1089382504911836,"std_dev_ratio":0.15314787515744666},"samples":[103072714,72718447,86382686,83813104,77929734,76746443,79316608,67074909,62980620,61064163,90751224,75028195,75151029,81720897,67447951,64203119,70017656,66848284,65289119,68485949,69416449,79970274,74426695,66766326,93016973,94538847,74579652,107307171,66794118,62171454,75796069,65256702,65392994,63905744,64906785,64409535,63586161,72240572,73004779,73559112,64732577,79511233,63570536,63680370,64371162,61569537,71803822,64023119,66725451,67621241,61558122,64040368,61377288,69854573,72203531,76808526,92689599,112479417,64288911,76375318,68002783,73580904,71620656,62355288,64429536,62554246,82312272,72152239,67292741]},"memory_usage_data":{"statistics":{"absolute_difference":-1704.0,"average":71096.0,"ips":null,"maximum":71096,"median":71096.0,"minimum":71096,"mode":71096,"percentiles":{"50":71096.0,"99":71096.0},"relative_less":1.0239675931135366,"relative_more":0.9765934065934065,"sample_size":28,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096,71096]},"tag":null},{"name":"Dynamic/Components/ViewWithStateless","job_name":"Dynamic/Components/ViewWithStateless","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":7483467.852813847,"average":73001107.33333333,"ips":13.69842234630578,"maximum":262871764,"median":64535161.0,"minimum":59955123,"mode":null,"percentiles":{"50":64535161.0,"99":262871764.0},"relative_less":0.8974882967371539,"relative_more":1.1142206574008047,"sample_size":69,"std_dev":26370937.344365574,"std_dev_ips":4.9484213405368385,"std_dev_ratio":0.36124023741108696},"samples":[63419828,61827204,63658453,59955123,74082196,63786327,63325829,61751329,65863243,64286243,64279412,61816620,95349680,61078413,64327493,63020162,63901077,60882288,64170370,71336072,62921079,62694537,60786705,62212037,61243247,60145663,64629453,91161224,66068452,61384162,63051162,66259326,62078037,84947562,64751911,76465360,63461203,74592237,66154201,64109537,63642245,93746389,65310411,64710785,64774119,64535161,66085660,62670746,62010620,64289160,262871764,93004349,64319077,131028446,91019891,94610639,65005369,82073397,65308869,83390480,82220815,65985160,80785190,86183062,86983435,83073980,68433075,63552828,64216827]},"memory_usage_data":{"statistics":{"absolute_difference":3048.0,"average":75848.0,"ips":null,"maximum":75848,"median":75848.0,"minimum":75848,"mode":75848,"percentiles":{"50":75848.0,"99":75848.0},"relative_less":0.9598143655732517,"relative_more":1.0418681318681318,"sample_size":31,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848,75848]},"tag":null},{"name":"LiveView/FunctionComponent/WithMultipleTargets","job_name":"LiveView/FunctionComponent/WithMultipleTargets","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":9899018.758286484,"average":75416658.23880596,"ips":13.25966999006389,"maximum":137974148,"median":72216530.0,"minimum":60671539,"mode":null,"percentiles":{"50":72216530.0,"99":137974148.0},"relative_less":0.8687422780396692,"relative_more":1.151089368249138,"sample_size":67,"std_dev":12870702.845314104,"std_dev_ips":2.26291215037193,"std_dev_ratio":0.17066127226904135},"samples":[61244622,66469160,64926327,63346161,69698865,70376906,68945782,65934909,64302161,62248287,94460430,78823025,71240281,80913690,78268150,84245938,90706642,78652859,83354355,72503156,69219782,69804657,64471536,80907273,60671539,72400280,85883227,67260409,65976451,60986247,63258994,77047818,84469272,73678696,65026744,66588868,67161408,97927845,64419535,70481823,72235031,67498866,74364986,85760312,87599310,97147429,98340177,73628237,65902576,77482818,87720102,89256225,82470897,84333105,63158162,68436532,63988370,66234034,81084190,62514204,83591688,64690619,69622074,137974148,92144224,85217146,72216530]},"memory_usage_data":{"statistics":{"absolute_difference":16224.0,"average":89024.0,"ips":null,"maximum":89024,"median":89024.0,"minimum":89024,"mode":89024,"percentiles":{"50":89024.0,"99":89024.0},"relative_less":0.8177570093457944,"relative_more":1.2228571428571429,"sample_size":25,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024,89024]},"tag":null},{"name":"LiveView/ComponentAndNestedInLive","job_name":"LiveView/ComponentAndNestedInLive","input_name":"__no_input","run_time_data":{"statistics":{"absolute_difference":15358913.7130289,"average":80876553.19354838,"ips":12.364522973758126,"maximum":445005755,"median":68867907.0,"minimum":58570623,"mode":null,"percentiles":{"50":68867907.0,"99":445005755.0},"relative_less":0.8100943585432855,"relative_more":1.2344241006667465,"sample_size":62,"std_dev":50443393.41420093,"std_dev_ips":7.711858036921889,"std_dev_ratio":0.6237084967442067},"samples":[93464640,93279056,69851990,73251821,74207946,69285448,67085201,64859202,61523913,67222992,68450366,63634828,124038367,78248609,109117170,70123656,65408577,63739494,62352787,79610524,66437284,80814565,62013621,63452871,62850370,97565761,60357873,63987785,79943482,64513620,66795159,58570623,67389785,66089576,60038164,65624909,63454953,59791706,65177118,64065703,62650204,88315101,62276704,65967952,72475029,76479069,75248069,61117996,75415903,445005755,172303331,75685903,71652405,111035835,85832271,82944647,77428192,90475142,75457444,74670195,88108019,66109617]},"memory_usage_data":{"statistics":{"absolute_difference":-5736.0,"average":67064.0,"ips":null,"maximum":67064,"median":67064.0,"minimum":67064,"mode":67064,"percentiles":{"50":67064.0,"99":67064.0},"relative_less":1.085530239770965,"relative_more":0.9212087912087912,"sample_size":27,"std_dev":0.0,"std_dev_ips":null,"std_dev_ratio":0.0},"samples":[67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064,67064]},"tag":null}];
+      var inputHeadline = "";
+
+      
+        drawIpsComparisonChart(scenarios, inputHeadline);
+        drawRunTimeComparisonBoxPlot(scenarios, inputHeadline);
+      
+
+      
+        drawMemoryComparisonChart(scenarios, inputHeadline);
+        drawMemoryComparisonBoxPlot(scenarios, inputHeadline);
+      
+    </script>
+  </body>
+</html>
